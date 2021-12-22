@@ -7,6 +7,3 @@ contract Token is ERC20 {
     _mint(msg.sender, supply * (10 ** decimals()));
   }
 }
-
-// https://www.youtube.com/watch?v=DILDtLTrx_s
-// https://www.youtube.com/watch?v=3TVanIG  6B3A
